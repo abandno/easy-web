@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac3c44ba-2442-4ac0-ae05-16863cb120c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/consts/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/consts/StringPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/enums/CaseTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/enums/IEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/enums/MimeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/BException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/BRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/DialogException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/ErrorSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/IException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/RequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/SignalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/ext/lang/AbstractFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/ext/lang/Tuple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/ext/lang/Tuple3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/ext/math/Numbor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/easy web 模块依赖图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment/src/main/java/com/nisus/baotool/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment/src/test/java/com/nisus/baotool/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/java/com/nisus/baotool/test/ApplicationLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/profiles/prod/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/profiles/test/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/resources/h2/ds0/user.ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/resources/h2/ds0/user.insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/resources/h2/ds1/sku.ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/resources/h2/ds1/student.ddl.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/resources/h2/ds1/student.insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/resources/mapper/H2skuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/core/exception/BRuntimeExceptionTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/test/FooGroovyTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/test/java/com/nisus/baotool/test/FooTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/test/java/com/nisus/baotool/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/test/java/com/nisus/baotool/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Parameterized Groovy, Spock &amp; Mockito" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Oak11eq81a4Jdg6LNP89WJ1Pgi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;Spock&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock&quot;: &quot;spock.lang.Specification&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-1.8&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/Sync/Work/JAVA/Publish/easy-web/test-service/src/test/groovy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Sync/Work/JAVA/Publish/easy-web/test-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b1f4378651ee7d41b07bd526338014ae&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sync\Work\JAVA\Publish\easy-web\test-service" />
+      <recent name="E:\Sync\Work\JAVA\Publish\easy-web" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="spock.lang.Specification" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sync\Work\JAVA\Publish\easy-web\doc" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.nisus.baotool.test" />
+      <recent name="com.nisus.baotool.core.exception" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nisus.baotool.core.exception" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nisus.baotool.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationLoader (1)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="easy-web" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="easy-web" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BRuntimeExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nisus.baotool.core.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nisus.baotool.core.exception" />
+      <option name="MAIN_CLASS_NAME" value="com.nisus.baotool.core.exception.BRuntimeExceptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BRuntimeExceptionTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nisus.baotool.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nisus.baotool.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nisus.baotool.test.BRuntimeExceptionTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BRuntimeExceptionTest2.set Code where code=#code then expect: #expectedResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nisus.baotool.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nisus.baotool.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nisus.baotool.test.BRuntimeExceptionTest2" />
+      <option name="METHOD_NAME" value="set Code where code=#code then expect: #expectedResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BRuntimeExceptionTest2.set Errors where errors=#errors then expect: #expectedResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nisus.baotool.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nisus.baotool.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nisus.baotool.test.BRuntimeExceptionTest2" />
+      <option name="METHOD_NAME" value="set Errors where errors=#errors then expect: #expectedResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FooTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nisus.baotool.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nisus.baotool.test" />
+      <option name="MAIN_CLASS_NAME" value="com.nisus.baotool.test.FooTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationLoader (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nisus.baotool.test.ApplicationLoader" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationLoader" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sankuai.groceryrisk.common.test.service.ApplicationLoader" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BRuntimeExceptionTest" />
+        <item itemvalue="JUnit.FooTest" />
+        <item itemvalue="JUnit.BRuntimeExceptionTest2.set Code where code=#code then expect: #expectedResult" />
+        <item itemvalue="JUnit.BRuntimeExceptionTest2" />
+        <item itemvalue="JUnit.BRuntimeExceptionTest2.set Errors where errors=#errors then expect: #expectedResult" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac3c44ba-2442-4ac0-ae05-16863cb120c5" name="Changes" comment="" />
+      <created>1681805865512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681805865512</updated>
+      <workItem from="1681805866705" duration="4833000" />
+      <workItem from="1681825393060" duration="5145000" />
+      <workItem from="1681830687959" duration="473000" />
+      <workItem from="1681831170565" duration="592000" />
+      <workItem from="1681831771851" duration="140000" />
+      <workItem from="1681831920663" duration="760000" />
+      <workItem from="1681832690521" duration="2227000" />
+      <workItem from="1681834930055" duration="779000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

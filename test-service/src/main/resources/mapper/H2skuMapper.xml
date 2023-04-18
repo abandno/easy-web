@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sankuai.groceryrisk.common.test.dao.ds1.mapper.H2SkuMapper">
+    <insert id="insertSku">
+        insert into h2_sku (sku_id, sku_name) values (#{skuId}, #{skuName})
+    </insert>
+</mapper>

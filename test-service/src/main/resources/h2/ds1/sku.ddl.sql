@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS h2_sku (
+    id BIGINT(20) NOT NULL AUTO_INCREMENT,
+    sku_id INT(10) NULL DEFAULT NULL ,
+    sku_name VARCHAR(255) NULL,
+    cate_id INT(10) NULL,
+    cate_name VARCHAR(255) NULL DEFAULT NULL ,
+    PRIMARY KEY (id)
+);
+
