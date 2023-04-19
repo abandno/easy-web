@@ -5,6 +5,10 @@
 虽然java开发工具、脚⼿架丰富、开源组件众多。但针对组内具体开发场景，依然有部分是它们触及不到的或⽆法满⾜的。
 这时，需要⼀些更贴近业务开发、定制化的⼯具类库，来简 化⽇常开发。
 
+[Easyweb 参考文档](https://nisus-liu.gitee.io/easyweb-document/#/)
+
+文档协作
+[Easyweb gitee 文档仓库](https://gitee.com/Nisus-Liu/easyweb-document)
 
 ## 项目结构
 
