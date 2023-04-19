@@ -1,7 +1,5 @@
 package com.nisus.baotool.core.exception;
 
-import java.util.List;
-
 /**
  * '信号'异常, 仅作为中断流程, 不打印堆栈
  * <p>
@@ -21,38 +19,8 @@ public class SignalException extends BRuntimeException {
         super(msg);
     }
 
-    // public SignalException(Throwable cause) {
-    //     super(cause);
-    // }
-
-    // public SignalException(Throwable cause, String msg, Object... args) {
-    //     super(cause, msg, args);
-    // }
-
     public SignalException(String msg, Object... args) {
         super(msg, args);
-    }
-
-    @Override
-    public Integer getCode() {
-        return this.code;
-    }
-
-    @Override
-    public SignalException setCode(Integer code) {
-        this.code = code;
-        return this;
-    }
-
-    @Override
-    public List<String> getErrors() {
-        return this.errors;
-    }
-
-    @Override
-    public SignalException setErrors(List<String> errors) {
-        this.errors = errors;
-        return this;
     }
 
     /**

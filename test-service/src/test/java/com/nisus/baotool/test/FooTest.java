@@ -1,6 +1,6 @@
 package com.nisus.baotool.test;
 
-import com.nisus.baotool.core.exception.BRuntimeException;
+import cn.hutool.core.util.NumberUtil;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -12,9 +12,8 @@ public class FooTest {
 
     @Test
     public void foo() {
-        BRuntimeException ex = new BRuntimeException(new NullPointerException("NPE"), "ljjjgjgj {}", 999897);
-        // System.out.println(ex);
-        ex.printStackTrace();
+        System.out.println(NumberUtil.sub(0.3, 0.2));
+        System.out.println(NumberUtil.sub(0.3, 0.2) == 0.1);
     }
 
 

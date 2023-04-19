@@ -203,7 +203,7 @@ public class Numbor /*extends Number*/ implements Comparable<Numbor>, Serializab
     }
 
     /**
-     * 默认 {@link Rule.STRICT} 模式
+     * 默认 {@link Rule#STRICT} 模式
      *
      * @param num 数值
      */
@@ -513,7 +513,7 @@ public class Numbor /*extends Number*/ implements Comparable<Numbor>, Serializab
     /**
      * 是否有效: 不为 null, 且不是 NaN, Infinity
      *
-     * 取最终计算结果, 会先经过次方法校验.
+     * 取最终计算结果, 会先经过此方法校验.
      */
     public boolean isValid() {
         return isNotEmpty()
@@ -635,15 +635,19 @@ public class Numbor /*extends Number*/ implements Comparable<Numbor>, Serializab
     @Accessors(chain = true)
     public static class Rule extends AbstractFlag implements Serializable {
 
+        // 严格模式, 忽略规则 和 AS 规则 都是 false
         private static final Rule STRICT = new Rule();
-        private static final Rule LOOSE = new Rule(Rule.NULL_AS_0 | Rule.INFINITY_AS_0 | Rule.NAN_AS_0);
+        // AS 0 模式, 忽略规则 false, AS 规则 true
+        private static final Rule AS_ZERO = new Rule(Rule.NULL_AS_0 | Rule.INFINITY_AS_0 | Rule.NAN_AS_0);
+        // 忽略模式, 忽略规则 true, AS 规则 false
         private static final Rule IGNORE = new Rule(Rule.IGNORE_NULL | Rule.IGNORE_INFINITY | Rule.IGNORE_NAN);
 
-        // -- 忽略特殊值, 优先级高于下面 AS 规则 --
+        // -- 忽略规则 --
+        // 忽略特殊值, 优先级高于下面 AS 规则
         public static final int IGNORE_NULL     = 1;
         public static final int IGNORE_INFINITY = 1 << 1;
         public static final int IGNORE_NAN      = 1 << 2;
-        // -- AS --
+        // -- AS 规则--
         public static final int NULL_AS_0       = 1 << 3;
         public static final int INFINITY_AS_0   = 1 << 4;
         public static final int NAN_AS_0        = 1 << 5;
@@ -671,7 +675,7 @@ public class Numbor /*extends Number*/ implements Comparable<Numbor>, Serializab
          * </pre>
          */
         public static Rule loose() {
-            return LOOSE;
+            return AS_ZERO;
         }
 
         /**

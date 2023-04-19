@@ -162,7 +162,7 @@ public enum MimeType {
     }
 
     /**
-     * Content-Type常用对照 根据后缀获取Mime
+     * Content-Type 常用对照 根据后缀获取Mime
      *
      * @param extension 上传的文件扩展名. '.jpg' | 'jpg'
      * @return mime类型

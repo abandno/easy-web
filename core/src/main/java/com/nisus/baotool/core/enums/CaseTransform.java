@@ -7,7 +7,6 @@ import lombok.AllArgsConstructor;
 /**
  * {@link CaseFormat} 枚举类组合简化
  * <p>
- * 注: 部分常用的, 需要的再添加.
  *
  * @author L&J
  * @date 2021-12-15 16:45:46

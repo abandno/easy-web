@@ -18,6 +18,10 @@ public abstract class AbstractFlag {
     protected List<Field> flagNameFields = new ArrayList<>();
     protected int state;
 
+    public int getState() {
+        return this.state;
+    }
+
     public AbstractFlag() {
         Field[] declaredFields = this.getClass().getDeclaredFields();
         for (Field f : declaredFields) {
