@@ -1,20 +1,15 @@
 package com.nisus.baotool.test
 
-import com.nisus.baotool.core.ext.lang.Tuple2
+
 import com.nisus.baotool.core.ext.lang.Tuple3
 import org.junit.jupiter.api.Test
 
 class FooGroovyTest {
 
     @Test
-    def void foo() {
-        def tup2 = new Tuple2<Integer, String>(18, "小花")
-        println tup2
-        println tup2.getFirst()
-        println tup2.getSecond()
+    void foo() {
 
-        tup2.setFirst(28)
-        println tup2.getFirst()
+
     }
 
     @Test

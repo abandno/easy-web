@@ -9,7 +9,7 @@ import java.util.function.Supplier;
  * @author L&J
  * @date 2021/10/8 5:41 下午
  */
-public class ErrorSupplier {
+public class Exceptions {
 
     /**
      * 提供异常 lambda 快捷方式
@@ -21,7 +21,7 @@ public class ErrorSupplier {
      * @param args
      * @return
      */
-    public static Supplier<BRuntimeException> riskRuntimeException(String msg, Object... args) {
+    public static Supplier<BRuntimeException> runtimeException(String msg, Object... args) {
         return () -> new BRuntimeException(msg, args);
     }
 
@@ -29,11 +29,11 @@ public class ErrorSupplier {
         return () -> new DialogException(msg, args);
     }
 
-    public static Supplier<RequestException> badRequestException(String msg, Object... args) {
+    public static Supplier<RequestException> requestException(String msg, Object... args) {
         return () -> new RequestException(msg, args);
     }
 
-    public static Supplier<BException> riskException(String msg, Object... args) {
+    public static Supplier<BException> exception(String msg, Object... args) {
         return () -> new BException(msg, args);
     }
 

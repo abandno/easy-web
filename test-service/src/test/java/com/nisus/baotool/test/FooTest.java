@@ -1,6 +1,7 @@
 package com.nisus.baotool.test;
 
-import cn.hutool.core.util.NumberUtil;
+import com.nisus.baotool.asset.User;
+import com.nisus.baotool.util.reflect.FieldNameUtil;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -12,8 +13,8 @@ public class FooTest {
 
     @Test
     public void foo() {
-        System.out.println(NumberUtil.sub(0.3, 0.2));
-        System.out.println(NumberUtil.sub(0.3, 0.2) == 0.1);
+        System.out.println(FieldNameUtil.get(User::isGoodMan));     // goodMan
+        System.out.println(FieldNameUtil.lc2lu(User::isGoodMan));   // good_man
     }
 
 
