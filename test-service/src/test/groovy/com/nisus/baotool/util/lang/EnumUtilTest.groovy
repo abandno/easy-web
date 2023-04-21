@@ -1,7 +1,7 @@
 package com.nisus.baotool.util.lang
 
-import com.nisus.baotool.asset.ExampleEnum
-import com.nisus.baotool.asset.ExampleIEnum
+import com.nisus.baotool.test.asset.ExampleEnum
+import com.nisus.baotool.test.asset.ExampleIEnum
 import spock.lang.Specification
 import spock.lang.Unroll
 

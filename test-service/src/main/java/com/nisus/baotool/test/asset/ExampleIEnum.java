@@ -1,4 +1,4 @@
-package com.nisus.baotool.asset;
+package com.nisus.baotool.test.asset;
 
 import com.nisus.baotool.core.enums.IEnum;
 import lombok.AllArgsConstructor;

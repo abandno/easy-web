@@ -5,52 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac3c44ba-2442-4ac0-ae05-16863cb120c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/experiment/src/main/java/com/nisus/baotool/experiment/bean/EnumItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiment/src/main/java/com/nisus/baotool/experiment/bean/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/asset/ExampleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/asset/ExampleIEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/asset/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/experiment/bean/ResultTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/test/GroovyTestCaseTemplate.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/collection/CollDiffTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/collection/NameValuePairTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/collection/skmap/StringKeyMapTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/etc/JsonFilterUtilTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/etc/SafesTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/lang/EmptyUtilTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/lang/EnumUtilTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/valid/ValidateUtilTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-service/src/test/java/com/nisus/baotool/test/benchmark/InstanceofVsOverLoadBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/collection/CollDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/collection/NameValuePair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/collection/skmap/AbstractSMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/collection/skmap/SMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/collection/skmap/SoMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/collection/skmap/SsMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/collection/skmap/StringKeyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/etc/JsonFilterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/etc/OrderBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/etc/Safes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/function/SFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/function/ThrowingSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/lang/EmptyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/lang/EnumUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/reflect/FieldNameUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/reflect/LambdaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/script/GroovyEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/valid/ValidateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/EasyWebAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/consts/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/modules/base/BaseProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/modules/base/datesede/DateSedeObjectMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/modules/base/datesede/DateTimeMsgConverterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/modules/base/datesede/GlobalDateTimeConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/modules/base/enumsede/EnumConverterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter/modules/base/enumsede/EnumSedeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-web-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment/src/main/java/com/nisus/baotool/experiment/Sout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/java/com/nisus/baotool/test/asset/TestSeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/java/com/nisus/baotool/test/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-service/src/main/java/com/nisus/baotool/test/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/aliexcel/convert/BoolExcelPropertyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/aliexcel/convert/IEnumExcelPropertyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/aliexcel/convert/NumberExcelPropertyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/ann/EmptyToNullProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/ann/EnumProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/ann/NumberProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/de/EmptyToNullPropertyDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/de/EnumDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/se/EmptyToNullPropertySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/se/EmptyToNullSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/se/EnumPropertySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/jackson/se/NumberPropertySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/webutil/mybatis/BEnumTypeHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/ErrorSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/nisus/baotool/core/exception/Exceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/experiment/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment/src/main/java/com/nisus/baotool/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment/src/test/java/com/nisus/baotool/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-web-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-web-boot-starter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/test/FooGroovyTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/test/FooGroovyTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/asset/ExampleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/main/java/com/nisus/baotool/test/asset/ExampleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/asset/ExampleIEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/main/java/com/nisus/baotool/test/asset/ExampleIEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/asset/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/main/java/com/nisus/baotool/test/asset/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/collection/CollDiffTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/collection/CollDiffTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/collection/skmap/StringKeyMapTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/collection/skmap/StringKeyMapTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/etc/JsonFilterUtilTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/etc/JsonFilterUtilTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/etc/SafesTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/etc/SafesTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/lang/EnumUtilTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/lang/EnumUtilTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/valid/ValidateUtilTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/groovy/com/nisus/baotool/util/valid/ValidateUtilTest.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-service/src/test/java/com/nisus/baotool/test/FooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/src/test/java/com/nisus/baotool/test/FooTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/test/java/com/nisus/baotool/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-util/src/main/java/com/nisus/baotool/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-util/src/test/java/com/nisus/baotool/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +58,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Parameterized Groovy, Spock &amp; Mockito" />
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -117,7 +114,7 @@
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "temurin-1.8",
     "last_directory_selection": "E:/Sync/Work/JAVA/Publish/EasyWeb/easy-web/test-service/src/test/groovy/com/nisus/baotool/util",
-    "last_opened_file_path": "E:/Sync/Work/JAVA/Publish/EasyWeb/easy-web/util/src/main/java/com/nisus/baotool/util",
+    "last_opened_file_path": "E:/Sync/Work/JAVA/Publish/EasyWeb/easy-web/easy-web-boot-starter/src/main/java/com/nisus/baotool/starter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,18 +123,18 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "b1f4378651ee7d41b07bd526338014ae",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\easy-web-boot-starter\src\main\java\com\nisus\baotool\starter" />
+      <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\easy-web-boot-starter\src\main\java\com\nisus\baotool\starter\modules\base" />
+      <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\easy-web-boot-starter\src\main" />
+      <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\web-util\src\main\java\com\nisus\baotool\webutil" />
       <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\util\src\main\java\com\nisus\baotool\util" />
-      <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\test-service\src\test\groovy\com\nisus\baotool\asset" />
-      <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\test-service\src\test\groovy\com\nisus\baotool\asserts" />
-      <recent name="E:\Sync\Work\JAVA\Publish\EasyWeb\easy-web\util\src\main\java\com\nisus\baotool" />
-      <recent name="E:\Sync\Work\JAVA\Publish\easy-web\test-service" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="groovy.util.GroovyTestCase" />
@@ -162,14 +159,14 @@
       <recent name="com.nisus.baotool.core.ext.math" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.nisus.baotool.util.etc" />
-      <recent name="com.nisus.baotool.util.lang" />
-      <recent name="com.nisus.baotool.experiment.bean" />
-      <recent name="com.nisus.baotool.core.ext.lang" />
-      <recent name="com.nisus.baotool.core.enums" />
+      <recent name="com.nisus.baotool.experiment" />
+      <recent name="com.nisus.baotool.test.bean" />
+      <recent name="com.nisus.baotool.test.controller" />
+      <recent name="com.nisus.baotool.starter" />
+      <recent name="com.nisus.baotool.webutil.mybatis" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FooTest.foo">
+  <component name="RunManager" selected="Spring Boot.ApplicationLoader (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="easy-web" />
       <working_directory value="$PROJECT_DIR$" />
@@ -187,6 +184,9 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="FooTest.foo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -215,22 +215,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.nisus.baotool.util.etc" />
       <option name="MAIN_CLASS_NAME" value="com.nisus.baotool.util.etc.JsonFilterUtilTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SafesTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nisus.baotool.util.valid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nisus.baotool.util.etc" />
-      <option name="MAIN_CLASS_NAME" value="com.nisus.baotool.util.etc.SafesTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -285,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="JUnit.FooTest.foo" />
         <item itemvalue="JUnit.ValidateUtilTest.test1" />
         <item itemvalue="JUnit.JsonFilterUtilTest.test1" />
         <item itemvalue="JUnit.SafesTest.test2" />
-        <item itemvalue="JUnit.SafesTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +296,7 @@
       <workItem from="1681863395030" duration="26459000" />
       <workItem from="1681960076891" duration="943000" />
       <workItem from="1681961076554" duration="22454000" />
-      <workItem from="1681989657592" duration="4750000" />
+      <workItem from="1681989657592" duration="14678000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 项目搭建">
       <created>1681835789339</created>
@@ -342,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681894053060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="util">
+      <created>1681994687122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681994687122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +357,8 @@
     <MESSAGE value="core" />
     <MESSAGE value="chore" />
     <MESSAGE value="doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc" />
+    <MESSAGE value="util" />
+    <option name="LAST_COMMIT_MESSAGE" value="util" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
@@ -374,33 +366,9 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/etc/JsonFilterUtil.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/etc/JsonFilterUtil.java</url>
-          <line>115</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/util/src/main/java/com/nisus/baotool/util/etc/JsonFilterUtil.java</url>
-          <line>245</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test-service/src/test/java/com/nisus/baotool/test/FooTest.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test-service/src/test/java/com/nisus/baotool/test/FooTest.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="DlvErrorBreakpoint" />
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

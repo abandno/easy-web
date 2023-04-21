@@ -1,6 +1,6 @@
 package com.nisus.baotool.test;
 
-import com.nisus.baotool.asset.User;
+import com.nisus.baotool.test.asset.User;
 import com.nisus.baotool.util.reflect.FieldNameUtil;
 import org.junit.jupiter.api.Test;
 

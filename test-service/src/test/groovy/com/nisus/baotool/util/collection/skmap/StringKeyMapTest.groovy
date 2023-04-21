@@ -1,6 +1,6 @@
 package com.nisus.baotool.util.collection.skmap
 
-import com.nisus.baotool.asset.User
+import com.nisus.baotool.test.asset.User
 
 /**
  * ${description}
