@@ -1,8 +1,8 @@
 package com.nisus.baotool.test;
 
-import com.nisus.baotool.test.asset.User;
-import com.nisus.baotool.util.reflect.FieldNameUtil;
 import org.junit.jupiter.api.Test;
+
+import java.util.PriorityQueue;
 
 /**
  * @author dafei
@@ -13,8 +13,13 @@ public class FooTest {
 
     @Test
     public void foo() {
-        System.out.println(FieldNameUtil.get(User::isGoodMan));     // goodMan
-        System.out.println(FieldNameUtil.lc2lu(User::isGoodMan));   // good_man
+        PriorityQueue<Integer> q = new PriorityQueue<>();
+        q.add(100);
+        q.add(1);
+        q.add(50);
+        while (q.isEmpty() == false) {
+            System.out.println(q.poll());
+        }
     }
 
 
