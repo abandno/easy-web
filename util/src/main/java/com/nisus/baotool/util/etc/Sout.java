@@ -1,4 +1,4 @@
-package com.nisus.baotool.experiment;
+package com.nisus.baotool.util.etc;
 
 import cn.hutool.core.util.StrUtil;
 
@@ -47,7 +47,7 @@ public class Sout {
             }
             sb.append(StrUtil.utf8Str(arg));
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 
 }

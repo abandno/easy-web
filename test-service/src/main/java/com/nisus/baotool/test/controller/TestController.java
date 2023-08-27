@@ -1,10 +1,10 @@
 package com.nisus.baotool.test.controller;
 
-import com.nisus.baotool.experiment.Sout;
 import com.nisus.baotool.test.asset.ExampleEnum;
 import com.nisus.baotool.test.asset.ExampleIEnum;
 import com.nisus.baotool.test.asset.TestSeBean;
 import com.nisus.baotool.test.service.TestService;
+import com.nisus.baotool.util.etc.Sout;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
