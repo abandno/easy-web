@@ -38,5 +38,6 @@ jobs:
           maven_args: '-DskipTests'
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
 #          gpg_passphrase: ${{ secrets.GPG_PASSPHRASE }}
+          gpg_passphrase: ''
           nexus_username: ${{ secrets.OSSRH_USERNAME }}
           nexus_password: ${{ secrets.OSSRH_TOKEN }}
