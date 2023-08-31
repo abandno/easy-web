@@ -1,5 +1,7 @@
 package com.nisus.baotool.util.collection
 
+import io.github.abandno.baotool.util.collection.NameValuePair
+
 /**
  * ${description}
  * @author nisus

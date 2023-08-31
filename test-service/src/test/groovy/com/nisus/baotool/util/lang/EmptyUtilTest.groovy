@@ -1,5 +1,6 @@
 package com.nisus.baotool.util.lang
 
+import io.github.abandno.baotool.util.lang.EmptyUtil
 import org.mockito.MockitoAnnotations
 import org.omg.CORBA.Object
 import spock.lang.Specification

@@ -1,6 +1,7 @@
 package com.nisus.baotool.util.valid
 
-import com.nisus.baotool.test.asset.User
+import io.github.abandno.baotool.test.asset.User
+import io.github.abandno.baotool.util.valid.ValidateUtil
 
 /**
  * ${description}

@@ -1,5 +1,7 @@
 package com.nisus.baotool.experiment.bean
 
+import io.github.abandno.baotool.experiment.bean.Result
+
 /**
  * @author nisus
  * @version 0.1

@@ -1,5 +1,6 @@
 package com.nisus.baotool.core.enums
 
+import io.github.abandno.baotool.core.enums.CaseTransform
 import org.junit.jupiter.api.Test
 
 

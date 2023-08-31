@@ -1,6 +1,7 @@
 package com.nisus.baotool.core.ext.math
 
 import cn.hutool.core.util.NumberUtil
+import io.github.abandno.baotool.core.ext.math.Numbor
 
 /**
  * ${description}

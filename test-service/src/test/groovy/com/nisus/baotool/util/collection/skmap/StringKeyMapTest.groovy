@@ -1,6 +1,7 @@
 package com.nisus.baotool.util.collection.skmap
 
-import com.nisus.baotool.test.asset.User
+import io.github.abandno.baotool.test.asset.User
+import io.github.abandno.baotool.util.collection.skmap.SoMap
 
 /**
  * ${description}

@@ -1,4 +1,6 @@
-package com.nisus.baotool.core.enums;
+package com.nisus.baotool.core.enums
+
+import io.github.abandno.baotool.core.enums.IEnum;
 
 enum AIEnum implements IEnum<Integer> {
     BIG(1, "大杯"),

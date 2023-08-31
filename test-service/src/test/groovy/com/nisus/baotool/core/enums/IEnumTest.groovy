@@ -1,6 +1,6 @@
 package com.nisus.baotool.core.enums
 
-
+import io.github.abandno.baotool.core.enums.IEnum
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Unroll

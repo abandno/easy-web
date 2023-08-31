@@ -1,6 +1,7 @@
 package com.nisus.baotool.core.exception
 
-
+import io.github.abandno.baotool.core.exception.BRuntimeException
+import io.github.abandno.baotool.core.exception.SignalException
 import org.mockito.InjectMocks
 import org.mockito.Mock
 import org.mockito.MockitoAnnotations
