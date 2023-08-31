@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.abandno</groupId>
         <artifactId>easy-web</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.1</version>
     </parent>
     <artifactId>easy-web-boot-starter</artifactId>
     <packaging>jar</packaging>
@@ -14,7 +14,7 @@
         <dependency>
             <groupId>io.github.abandno</groupId>
             <artifactId>web-util</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.1</version>
             <exclusions>
                 <exclusion>
                     <artifactId>objenesis</artifactId>
