@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3c44ba-2442-4ac0-ae05-16863cb120c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/maven-publish.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ac3c44ba-2442-4ac0-ae05-16863cb120c5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +278,7 @@
       <workItem from="1693105026211" duration="1239000" />
       <workItem from="1693106553239" duration="15270000" />
       <workItem from="1693237802915" duration="463000" />
-      <workItem from="1693400058981" duration="5445000" />
+      <workItem from="1693400058981" duration="5790000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 项目搭建">
       <created>1681835789339</created>
@@ -347,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693468164457</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="github action maven publish">
+      <option name="closed" value="true" />
+      <created>1693469024660</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1693469024660</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +382,8 @@
     <MESSAGE value="feat: TopQueue" />
     <MESSAGE value="feat: ScrollScanner,Utils,ProxySelf;测试代码" />
     <MESSAGE value="maven deploy 配置; 包路径修改为 io.github.abandno 打头" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven deploy 配置; 包路径修改为 io.github.abandno 打头" />
+    <MESSAGE value="github action maven publish" />
+    <option name="LAST_COMMIT_MESSAGE" value="github action maven publish" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
