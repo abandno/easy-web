@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3c44ba-2442-4ac0-ae05-16863cb120c5" name="Changes" comment="+">
+    <list default="true" id="ac3c44ba-2442-4ac0-ae05-16863cb120c5" name="Changes" comment="version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-web-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-web-boot-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/experiment/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +287,7 @@
       <workItem from="1693105026211" duration="1239000" />
       <workItem from="1693106553239" duration="15270000" />
       <workItem from="1693237802915" duration="463000" />
-      <workItem from="1693400058981" duration="8086000" />
+      <workItem from="1693400058981" duration="11582000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 项目搭建">
       <created>1681835789339</created>
@@ -385,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693469410476</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="version">
+      <option name="closed" value="true" />
+      <created>1693473735504</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693473735504</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +418,8 @@
     <MESSAGE value="github action maven publish" />
     <MESSAGE value="配置" />
     <MESSAGE value="+" />
-    <option name="LAST_COMMIT_MESSAGE" value="+" />
+    <MESSAGE value="version" />
+    <option name="LAST_COMMIT_MESSAGE" value="version" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VgoProject">
