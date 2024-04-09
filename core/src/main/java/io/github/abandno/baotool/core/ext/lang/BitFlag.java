@@ -13,7 +13,7 @@ import java.util.List;
  * @author L_J
  * @date 2021/10/23 3:56
  */
-public abstract class AbstractFlag {
+public abstract class BitFlag {
 
     protected List<Field> flagNameFields = new ArrayList<>();
     protected int state;
@@ -22,7 +22,7 @@ public abstract class AbstractFlag {
         return this.state;
     }
 
-    public AbstractFlag() {
+    public BitFlag() {
         Field[] declaredFields = this.getClass().getDeclaredFields();
         for (Field f : declaredFields) {
             int modifiers = f.getModifiers();
@@ -35,16 +35,16 @@ public abstract class AbstractFlag {
         this.state = 0;
     }
 
-    public AbstractFlag(int state) {
+    public BitFlag(int state) {
         this();
         this.state = state;
     }
 
-    protected void add(int flag) {
+    public void add(int flag) {
         this.state |= flag;
     }
 
-    protected void remove(int flag) {
+    public void remove(int flag) {
         this.state &= ~flag;
     }
 
@@ -57,7 +57,7 @@ public abstract class AbstractFlag {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        AbstractFlag that = (AbstractFlag) o;
+        BitFlag that = (BitFlag) o;
 
         return state == that.state;
     }

@@ -1,7 +1,7 @@
 package io.github.abandno.baotool.core.ext.math;
 
 import cn.hutool.core.util.NumberUtil;
-import io.github.abandno.baotool.core.ext.lang.AbstractFlag;
+import io.github.abandno.baotool.core.ext.lang.BitFlag;
 import lombok.Builder;
 import lombok.experimental.Accessors;
 
@@ -633,7 +633,7 @@ public class Numbor /*extends Number*/ implements Comparable<Numbor>, Serializab
      */
     @Builder
     @Accessors(chain = true)
-    public static class Rule extends AbstractFlag implements Serializable {
+    public static class Rule extends BitFlag implements Serializable {
 
         // 严格模式, 忽略规则 和 AS 规则 都是 false
         private static final Rule STRICT = new Rule();

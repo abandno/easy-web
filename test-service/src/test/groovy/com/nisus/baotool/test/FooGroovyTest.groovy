@@ -1,7 +1,7 @@
 package com.nisus.baotool.test
 
 
-import io.github.abandno.baotool.core.ext.lang.Tuple3
+import io.github.abandno.baotool.core.tuple.Tuple3
 import org.junit.jupiter.api.Test
 
 class FooGroovyTest {

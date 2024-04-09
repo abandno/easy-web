@@ -6,7 +6,7 @@ package com.nisus.baotool.core.ext.lang
  * @version 0.1
  * @since 2023/4/19 12:52
  */
-class AbstractFlagTest extends GroovyTestCase {
+class BitFlagTest extends GroovyTestCase {
 
     // @Test
     void test() {
@@ -27,6 +27,15 @@ class AbstractFlagTest extends GroovyTestCase {
         // RED|BLUE
         // 友好显示: RED|BLUE, 实际值是: 33
         // true
+    }
+
+    void test2() {
+        ColorFlag flag = new ColorFlag(ColorFlag.RED | ColorFlag.BLUE);
+        println "友好显示: ${flag}, 实际值是: ${flag.getState()}"
+        flag.add(ColorFlag.GREEN | ColorFlag.ORANGE);
+        println "友好显示: ${flag}, 实际值是: ${flag.getState()}"
+        flag.remove(ColorFlag.RED);
+        println "友好显示: ${flag}, 实际值是: ${flag.getState()}"
     }
 
 }
